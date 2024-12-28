@@ -1,0 +1,16 @@
+{
+  "name": "web",
+  "packageManager": "yarn@4.5.3",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^13.17.0",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.24.0"
+  },
+  "scripts": {
+    "pretest": "mkdir -p results",
+    "test": "cypress run",
+    "format:gherkin": "sed -i 's/^[0-9]\\+\\.\\s*//' *.feature"
+  }
+}

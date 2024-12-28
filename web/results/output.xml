@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.210" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-12-19T16:02:37" tests="0" file="cypress\e2e\login-logout\st01-login.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login functionality" timestamp="2024-12-19T16:02:37" tests="1" time="0.208" failures="1">
+    <testcase name="Login functionality Successful login with valid credentials" time="0.000" classname="Successful login with valid credentials">
+      <failure message="
+Step implementation missing for &quot;the user is on the homepage&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress\e2e\login-logout/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress\e2e\login-logout/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress\e2e\login-logout/st01-login/**/*.{js,mjs,ts,tsx}
+  - cypress\e2e\login-logout/st01-login.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;the user is on the homepage&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "the user is on the homepage".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress\e2e\login-logout/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress\e2e\login-logout/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress\e2e\login-logout/st01-login/**/*.{js,mjs,ts,tsx}
+  - cypress\e2e\login-logout/st01-login.{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("the user is on the homepage", function () {
+    return "pending";
+  });
+  
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress\e2e\login-logout\st01-login.feature:17003:29)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
